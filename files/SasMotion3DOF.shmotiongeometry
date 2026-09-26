@@ -1,0 +1,65 @@
+{
+  "Geometry": {
+    "Axis": [],
+    "TypeName": "GenericGeometry3Dof4Linear",
+    "BaseGeometry": {
+      "ReviewManager": {
+        "AvailableReviewKeys": "Dimensions, Actuators_Stroke",
+        "BypassReviewKeys": []
+      },
+      "Settings": {
+        "PitchOffset": 0.0,
+        "RollOffset": 0.0,
+        "MotionCompensationSettings": {
+          "SeatToPivotHeightMm": 0.0
+        },
+        "RigLength": 1100.0,
+        "RigWidth": 700.0,
+        "RigWidthFront": 600.0,
+        "SeparateWidth": false,
+        "ActuatorsStroke": 179.0,
+        "EnableActuatorStrokeLimit": false,
+        "ActuatorSafetyRangePercent": 20.0,
+        "ActuatorSafetyRangePredictionPercent": 5.0,
+        "ActuatorsSpikeFilterMmPerSecond": 500.0,
+        "ActuatorsSpikeFilterDegreesPerSecond": 50.0,
+        "ActuatorsStrokeLimit": 99999.0,
+        "CenterOfRotationOffset": {
+          "CustomCenterOfRotation": false
+        },
+        "CenterOfRotationRightOffset": 0.0,
+        "CenterOfRotationFrontOffset": 0.0,
+        "MotionCompensationRearOffset": 0.0,
+        "CustomCenterOfRotation": false,
+        "BoundsEasing": true,
+        "VelocityPredictionTimeMs": 0.0,
+        "HeaveOffsetDirect": true,
+        "ActuatorStrokeLimitAndOffset": {
+          "HeaveOffset": 0.0,
+          "EnableHeaveOffset": false,
+          "EnableActuatorStrokeLimit": false,
+          "ActuatorsStroke": 179.0,
+          "ActuatorsStrokeLimit": 99999.0
+        },
+        "AxisLimitingSettings": {
+          "RollLimit": {
+            "Enabled": false,
+            "Limit": 10.0
+          },
+          "FrontPitchLimit": {
+            "Enabled": false,
+            "Limit": 10.0
+          },
+          "RearPitchLimit": {
+            "Enabled": false,
+            "Limit": 10.0
+          }
+        },
+        "PresetSource": null,
+        "Version": 2
+      },
+      "TypeName": "Geometry3Dof4Linear"
+    }
+  },
+  "SecondaryGeometry": null
+}

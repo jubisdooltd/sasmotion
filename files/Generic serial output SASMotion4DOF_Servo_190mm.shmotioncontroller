@@ -1,0 +1,99 @@
+{
+  "Output": {
+    "ImportType": 0,
+    "Comments": null,
+    "CustomName": "Generic serial output SASMotion4DOF",
+    "ShowOriginalName": true,
+    "Settings": {
+      "EnableDataLogging": false,
+      "RtsEnable": true,
+      "DtrEnable": false,
+      "LockSettings": false,
+      "SerialPort": "COM14",
+      "DataBits": 8,
+      "SerialStopBits": 1,
+      "SerialParity": 0,
+      "BaudRate": 921600,
+      "AfterOpenDelay": 0,
+      "GenericProtocolDefinition": {
+        "SettingsBuilder": {
+          "Settings": [],
+          "IsEditMode": false
+        },
+        "UseLegacyDelay": false,
+        "ShowAdvancedPhases": false,
+        "AxisResolution": 10,
+        "AxisFormat": 1,
+        "StartCommands": [
+          {
+            "MustWaitForMessage": false,
+            "WaitForMessage": null,
+            "WaitForDelay": 5000,
+            "Command": null,
+            "CommandDelay": 1
+          }
+        ],
+        "UpdateCommands": [
+          {
+            "Command": "[V<Axis1a>][Z<Axis2a>][X<Axis3a>][Y<Axis4a>]",
+            "CommandDelay": 50
+          }
+        ],
+        "StopCommands": [
+          {
+            "MustWaitForMessage": false,
+            "WaitForMessage": null,
+            "WaitForDelay": 5000,
+            "Command": null,
+            "CommandDelay": 1
+          }
+        ],
+        "ConnectedCommands": [],
+        "DisconnectCommands": [],
+        "IdleStartCommands": [],
+        "IdleUpdateCommands": [],
+        "IdleStopCommands": []
+      },
+      "ActuatorOrderingSettings": {
+        "MaxActuatorsEx": 4,
+        "ConfigurationDone": true,
+        "UseParkPosition": false,
+        "ParkDuration": 5000,
+        "Roles": [
+          {
+            "RangeLimit": 90.0,
+            "Role": 33,
+            "MotionTarget": 0,
+            "ReverseDirection": true
+          },
+          {
+            "RangeLimit": 90.0,
+            "Role": 34,
+            "MotionTarget": 0,
+            "ReverseDirection": true
+          },
+          {
+            "RangeLimit": 90.0,
+            "Role": 36,
+            "MotionTarget": 0,
+            "ReverseDirection": true
+          },
+          {
+            "RangeLimit": 90.0,
+            "Role": 35,
+            "MotionTarget": 0,
+            "ReverseDirection": true
+          }
+        ]
+      },
+      "OutputId": "7bb37a46-e898-4062-9bc8-1d1ab413cde4",
+      "PresetSource": null
+    },
+    "AutomaticOrigin": null,
+    "ReviewManager": {
+      "AvailableReviewKeys": "Controller_Connection, Controller_Mapping",
+      "BypassReviewKeys": []
+    },
+    "TypeName": "GenericSerialOutputV2"
+  }
+}

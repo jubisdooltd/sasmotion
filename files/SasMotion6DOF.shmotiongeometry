@@ -1,0 +1,160 @@
+{
+  "Geometry": {
+    "Axis": [],
+    "TypeName": "GenericGeometry6DofsLinear",
+    "BaseGeometry": {
+      "ReviewManager": {
+        "AvailableReviewKeys": "Dimensions",
+        "BypassReviewKeys": []
+      },
+      "Settings": {
+        "FrontHitBox": {
+          "WidthMm": 400,
+          "HeightMm": 300,
+          "LenghtMm": 600,
+          "IsEnabled": false
+        },
+        "RearHitBox": {
+          "WidthMm": 400,
+          "HeightMm": 300,
+          "LenghtMm": 300,
+          "IsEnabled": false
+        },
+        "ActuatorCenteredLength": 860.0,
+        "ActuatorTotalStroke": 250.0,
+        "ActuatorDiameter": 80.0,
+        "ActuatorsSpikeFilterDegreesPerSecond": 25.0,
+        "ActuatorsLinearSpeedLimitMmPerSecond": 500.0,
+        "ActuatorSafetyRangePercent": 40.0,
+        "ActuatorSafetyRangePredictionPercent": 5.0,
+        "SingularityLimit": 10.0,
+        "AxisLimitingSettings": {
+          "Limits": [
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 1,
+              "LimitDirection": 2,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 1,
+              "LimitDirection": 1,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 2,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 0,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 3,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 5,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 4,
+              "LimitDirection": 2,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 4,
+              "LimitDirection": 1,
+              "UseDynamicScaler": false
+            }
+          ]
+        },
+        "CenterOfRotationOffset": {},
+        "MotorsSpacing": 730.0,
+        "MotorToMotorLinksSpacing": 850.0,
+        "TopMotorToMotorLinksSpacing": 50.0,
+        "TopLinksSpacing": 1009.0,
+        "IsLoading": false,
+        "SeatZOffset": -100.0,
+        "SeatYOffset": -250.0,
+        "MotionCompensationSettings": {
+          "SeatToPivotHeightMm": 0.0
+        },
+        "Motors": [
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 0,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 1,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 2,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 3,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 4,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 5,
+            "DistanceToHitBoxSigned": 0.0
+          }
+        ],
+        "LastAcceptedInput": null,
+        "PresetSource": null,
+        "Version": 0
+      },
+      "TypeName": "Geometry6DOFsStewartLinear"
+    }
+  },
+  "SecondaryGeometry": null
+}

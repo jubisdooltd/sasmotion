@@ -1,0 +1,457 @@
+{
+  "Geometry": {
+    "Axis": [],
+    "TypeName": "GenericGeometry6DofsLinear",
+    "BaseGeometry": {
+      "ReviewManager": {
+        "AvailableReviewKeys": "Dimensions",
+        "BypassReviewKeys": []
+      },
+      "Settings": {
+        "FrontHitBox": {
+          "WidthMm": 400,
+          "HeightMm": 300,
+          "LenghtMm": 600,
+          "IsEnabled": false
+        },
+        "RearHitBox": {
+          "WidthMm": 400,
+          "HeightMm": 300,
+          "LenghtMm": 300,
+          "IsEnabled": false
+        },
+        "ActuatorCenteredLength": 860.0,
+        "ActuatorTotalStroke": 250.0,
+        "ActuatorDiameter": 80.0,
+        "ActuatorsSpikeFilterDegreesPerSecond": 25.0,
+        "ActuatorsLinearSpeedLimitMmPerSecond": 500.0,
+        "ActuatorSafetyRangePercent": 40.0,
+        "ActuatorSafetyRangePredictionPercent": 5.0,
+        "SingularityLimit": 10.0,
+        "AxisLimitingSettings": {
+          "Limits": [
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 1,
+              "LimitDirection": 2,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 1,
+              "LimitDirection": 1,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 2,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 0,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 3,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 5,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 4,
+              "LimitDirection": 2,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 4,
+              "LimitDirection": 1,
+              "UseDynamicScaler": false
+            }
+          ]
+        },
+        "CenterOfRotationOffset": {},
+        "MotorsSpacing": 730.0,
+        "MotorToMotorLinksSpacing": 850.0,
+        "TopMotorToMotorLinksSpacing": 50.0,
+        "TopLinksSpacing": 1009.0,
+        "IsLoading": false,
+        "SeatZOffset": -100.0,
+        "SeatYOffset": -250.0,
+        "MotionCompensationSettings": {
+          "SeatToPivotHeightMm": 0.0
+        },
+        "Motors": [
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 0,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 1,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 2,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 3,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 4,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 860.0,
+            "ActuatorTotalStroke": 250.0,
+            "Index": 5,
+            "DistanceToHitBoxSigned": 0.0
+          }
+        ],
+        "LastAcceptedInput": null,
+        "PresetSource": null,
+        "Version": 0
+      },
+      "TypeName": "Geometry6DOFsStewartLinear"
+    }
+  },
+  "SecondaryGeometry": null,
+  "Output": {
+    "AggregatedOutputs": [
+      {
+        "IsEnabled": false,
+        "Output": {
+          "ImportType": 0,
+          "Comments": null,
+          "CustomName": "Generic serial output SASMotion3DOF",
+          "ShowOriginalName": true,
+          "Settings": {
+            "EnableDataLogging": false,
+            "RtsEnable": true,
+            "DtrEnable": false,
+            "LockSettings": false,
+            "SerialPort": null,
+            "DataBits": 8,
+            "SerialStopBits": 1,
+            "SerialParity": 0,
+            "BaudRate": 921600,
+            "AfterOpenDelay": 0,
+            "GenericProtocolDefinition": {
+              "SettingsBuilder": {
+                "Settings": [],
+                "IsEditMode": false
+              },
+              "UseLegacyDelay": false,
+              "ShowAdvancedPhases": false,
+              "AxisResolution": 10,
+              "AxisFormat": 1,
+              "StartCommands": [
+                {
+                  "MustWaitForMessage": false,
+                  "WaitForMessage": null,
+                  "WaitForDelay": 5000,
+                  "Command": null,
+                  "CommandDelay": 1
+                }
+              ],
+              "UpdateCommands": [
+                {
+                  "Command": "[V<Axis1a>][Z<Axis2a>][X<Axis3a>][Y<Axis4a>]",
+                  "CommandDelay": 50
+                }
+              ],
+              "StopCommands": [
+                {
+                  "MustWaitForMessage": false,
+                  "WaitForMessage": null,
+                  "WaitForDelay": 5000,
+                  "Command": null,
+                  "CommandDelay": 1
+                }
+              ],
+              "ConnectedCommands": [],
+              "DisconnectCommands": [],
+              "IdleStartCommands": [],
+              "IdleUpdateCommands": [],
+              "IdleStopCommands": []
+            },
+            "ActuatorOrderingSettings": {
+              "MaxActuatorsEx": 4,
+              "ConfigurationDone": true,
+              "UseParkPosition": false,
+              "ParkDuration": 5000,
+              "Roles": [
+                {
+                  "RangeLimit": 60.0,
+                  "Role": 1,
+                  "MotionTarget": 0
+                },
+                {
+                  "RangeLimit": 60.0,
+                  "Role": 2,
+                  "MotionTarget": 0
+                },
+                {
+                  "RangeLimit": 60.0,
+                  "Role": 4,
+                  "MotionTarget": 0
+                },
+                {
+                  "RangeLimit": 60.0,
+                  "Role": 3,
+                  "MotionTarget": 0
+                }
+              ]
+            },
+            "OutputId": "5c28b5a7-4fda-4f68-98a3-aff446f1102c",
+            "PresetSource": null
+          },
+          "AutomaticOrigin": null,
+          "ReviewManager": {
+            "AvailableReviewKeys": "Controller_Connection, Controller_Mapping",
+            "BypassReviewKeys": []
+          },
+          "TypeName": "GenericSerialOutputV2"
+        }
+      },
+      {
+        "IsEnabled": true,
+        "Output": {
+          "ImportType": 0,
+          "Comments": null,
+          "CustomName": "Generic serial output SASMotion6DOF",
+          "ShowOriginalName": true,
+          "Settings": {
+            "EnableDataLogging": false,
+            "RtsEnable": true,
+            "DtrEnable": false,
+            "LockSettings": false,
+            "SerialPort": "COM8",
+            "DataBits": 8,
+            "SerialStopBits": 1,
+            "SerialParity": 0,
+            "BaudRate": 921600,
+            "AfterOpenDelay": 0,
+            "GenericProtocolDefinition": {
+              "SettingsBuilder": {
+                "Settings": [],
+                "IsEditMode": false
+              },
+              "UseLegacyDelay": false,
+              "ShowAdvancedPhases": false,
+              "AxisResolution": 10,
+              "AxisFormat": 1,
+              "StartCommands": [
+                {
+                  "MustWaitForMessage": false,
+                  "WaitForMessage": null,
+                  "WaitForDelay": 5000,
+                  "Command": null,
+                  "CommandDelay": 1
+                }
+              ],
+              "UpdateCommands": [
+                {
+                  "Command": "[V<Axis1a>][Z<Axis2a>][X<Axis3a>][Y<Axis4a>][B<Axis5a>][C<Axis6a>]",
+                  "CommandDelay": 50
+                }
+              ],
+              "StopCommands": [
+                {
+                  "MustWaitForMessage": false,
+                  "WaitForMessage": null,
+                  "WaitForDelay": 5000,
+                  "Command": null,
+                  "CommandDelay": 1
+                }
+              ],
+              "ConnectedCommands": [],
+              "DisconnectCommands": [],
+              "IdleStartCommands": [],
+              "IdleUpdateCommands": [],
+              "IdleStopCommands": []
+            },
+            "ActuatorOrderingSettings": {
+              "MaxActuatorsEx": 6,
+              "ConfigurationDone": true,
+              "UseParkPosition": false,
+              "ParkDuration": 5000,
+              "Roles": [
+                {
+                  "Role": 51,
+                  "MotionTarget": 0
+                },
+                {
+                  "Role": 52,
+                  "MotionTarget": 0
+                },
+                {
+                  "Role": 53,
+                  "MotionTarget": 0
+                },
+                {
+                  "Role": 54,
+                  "MotionTarget": 0
+                },
+                {
+                  "Role": 55,
+                  "MotionTarget": 0
+                },
+                {
+                  "Role": 56,
+                  "MotionTarget": 0
+                }
+              ]
+            },
+            "OutputId": "9fa0bf8d-f367-465b-a615-0f4734313489",
+            "PresetSource": null
+          },
+          "AutomaticOrigin": null,
+          "ReviewManager": {
+            "AvailableReviewKeys": "Controller_Connection, Controller_Mapping",
+            "BypassReviewKeys": []
+          },
+          "TypeName": "GenericSerialOutputV2"
+        }
+      },
+      {
+        "IsEnabled": false,
+        "Output": {
+          "ImportType": 0,
+          "Comments": null,
+          "CustomName": "Generic serial output SASMotion4DOF",
+          "ShowOriginalName": true,
+          "Settings": {
+            "EnableDataLogging": false,
+            "RtsEnable": true,
+            "DtrEnable": false,
+            "LockSettings": false,
+            "SerialPort": "COM12",
+            "DataBits": 8,
+            "SerialStopBits": 1,
+            "SerialParity": 0,
+            "BaudRate": 921600,
+            "AfterOpenDelay": 0,
+            "GenericProtocolDefinition": {
+              "SettingsBuilder": {
+                "Settings": [],
+                "IsEditMode": false
+              },
+              "UseLegacyDelay": false,
+              "ShowAdvancedPhases": false,
+              "AxisResolution": 10,
+              "AxisFormat": 1,
+              "StartCommands": [
+                {
+                  "MustWaitForMessage": false,
+                  "WaitForMessage": null,
+                  "WaitForDelay": 5000,
+                  "Command": null,
+                  "CommandDelay": 1
+                }
+              ],
+              "UpdateCommands": [
+                {
+                  "Command": "[V<Axis1a>][Z<Axis2a>][X<Axis3a>][Y<Axis4a>]",
+                  "CommandDelay": 50
+                }
+              ],
+              "StopCommands": [
+                {
+                  "MustWaitForMessage": false,
+                  "WaitForMessage": null,
+                  "WaitForDelay": 5000,
+                  "Command": null,
+                  "CommandDelay": 1
+                }
+              ],
+              "ConnectedCommands": [],
+              "DisconnectCommands": [],
+              "IdleStartCommands": [],
+              "IdleUpdateCommands": [],
+              "IdleStopCommands": []
+            },
+            "ActuatorOrderingSettings": {
+              "MaxActuatorsEx": 4,
+              "ConfigurationDone": true,
+              "UseParkPosition": false,
+              "ParkDuration": 5000,
+              "Roles": [
+                {
+                  "RangeLimit": 40.0,
+                  "Role": 33,
+                  "MotionTarget": 0
+                },
+                {
+                  "RangeLimit": 40.0,
+                  "Role": 34,
+                  "MotionTarget": 0
+                },
+                {
+                  "RangeLimit": 40.0,
+                  "Role": 36,
+                  "MotionTarget": 0
+                },
+                {
+                  "RangeLimit": 40.0,
+                  "Role": 35,
+                  "MotionTarget": 0
+                }
+              ]
+            },
+            "OutputId": "7bb37a46-e898-4062-9bc8-1d1ab413cde4",
+            "PresetSource": null
+          },
+          "AutomaticOrigin": null,
+          "ReviewManager": {
+            "AvailableReviewKeys": "Controller_Connection, Controller_Mapping",
+            "BypassReviewKeys": []
+          },
+          "TypeName": "GenericSerialOutputV2"
+        }
+      }
+    ],
+    "TypeName": "ControllersAggregatorOutput"
+  }
+}

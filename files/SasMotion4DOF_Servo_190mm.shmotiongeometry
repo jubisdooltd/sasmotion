@@ -1,0 +1,113 @@
+{
+  "Geometry": {
+    "Axis": [],
+    "TypeName": "GenericGeometryFourDofsLinear",
+    "BaseGeometry": {
+      "ReviewManager": {
+        "AvailableReviewKeys": "Dimensions",
+        "BypassReviewKeys": []
+      },
+      "Settings": {
+        "ActuatorCenteredLength": 560.0,
+        "ActuatorTotalStroke": 190.0,
+        "ActuatorDiameter": 80.0,
+        "FrontActuatorsTopSpacing": 725.0,
+        "RearActuatorsBottomSpacing": 565.0,
+        "FrontActuatorsBottomSpacing": 790.0,
+        "FrontToRearBottomActuatorsDistance": 990.0,
+        "FrontToRearTopActuatorsDistance": 980.0,
+        "ActuatorsSpikeFilterDegreesPerSecond": 50.0,
+        "ActuatorsLinearSpeedLimitMmPerSecond": 500.0,
+        "ActuatorSafetyRangePercent": 20.0,
+        "ActuatorSafetyRangePredictionPercent": 5.0,
+        "LastSurgeCorrection": 0.0,
+        "LastSwayCorrection": 0.0,
+        "AxisLimitingSettings": {
+          "Limits": [
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 1,
+              "LimitDirection": 2,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 1,
+              "LimitDirection": 1,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 2,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 0,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            },
+            {
+              "Enabled": false,
+              "Limit": 50.0,
+              "MotionAxis": 3,
+              "LimitDirection": 0,
+              "UseDynamicScaler": false
+            }
+          ]
+        },
+        "CenterOfRotationOffset": {},
+        "IsLoading": false,
+        "SeatZOffset": -15.0,
+        "SeatYOffset": -100.0,
+        "MotionCompensationSettings": {
+          "SeatToPivotHeightMm": 0.0
+        },
+        "Motors": [
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 560.0,
+            "ActuatorTotalStroke": 190.0,
+            "Index": 0,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 560.0,
+            "ActuatorTotalStroke": 190.0,
+            "Index": 1,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 560.0,
+            "ActuatorTotalStroke": 190.0,
+            "Index": 2,
+            "DistanceToHitBoxSigned": 0.0
+          },
+          {
+            "ActuatorDiameter": 80.0,
+            "IsInvalid": false,
+            "ActuatorCenteredLength": 560.0,
+            "ActuatorTotalStroke": 190.0,
+            "Index": 3,
+            "DistanceToHitBoxSigned": 0.0
+          }
+        ],
+        "LastAcceptedInput": null,
+        "PresetSource": null,
+        "Version": 0
+      },
+      "TypeName": "GeometryFourDofsLinear"
+    }
+  },
+  "SecondaryGeometry": null
+}
